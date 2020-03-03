@@ -15,7 +15,7 @@ namespace WebApi.Repository
         private string connectionString;
         public ProductRepository()
         {
-            connectionString = @"Server=localhost;Database=DapperDemo;Trusted_Connection=true;";
+            connectionString = @"Server=localhost;Database=WebApiDemo;Trusted_Connection=true;";
         }
         public IDbConnection Connection
         {
